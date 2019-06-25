@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.5.0" />
+    <PackageReference Include="CsvHelper" Version="12.1.2" />
+    <PackageReference Include="OAuth2ClientHandler" Version="2.0.0.28" PrivateAssets="All" />
+  </ItemGroup>
+
+</Project>
